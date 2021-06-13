@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box; 
+}
+
+#main{
+	width:100%;
+}
+
+.container{
+	width:100%;
+	height:100vh;
+	background: url("images/50-502287_himachal-pradesh-himachal-tour-images-hd.jpg") no-repeat;
+	background-size:100% 100%; 
+	float:left;
+	
+}
+.x{
+	width:100%;
+	height:80px;
+	
+}
+.logo{
+	text-decoration: none;
+	font-size:40px;
+	font-family: arial;
+	color:rgba(25,40,109,1.00);
+	margin:10px 0 0 20px;
+	float: left;
+	font-weight:bold;
+}
+.x ul{
+	list-style: none;
+	float:left;
+	margin-left: 190px;
+}
+.x ul li{
+	float:left;
+     
+}
+.x ul li a{
+	text-decoration: none;
+	color:rgba(51,81,187,1.00);
+	font-family: arial;
+	font-weight:bold;
+	margin:25px 0 0 30px;
+	float:left;
+	display: block;
+	text-shadow: 1px 1px 2px blue;
+	
+}
+.x ul li a:hover{
+	text-decoration: none;
+	color:rgba(51,81,187,1.00);
+	font-family: arial;
+	font-weight:bold;
+	margin:25px 0 0 30px;
+	float:left;
+	display: block;
+	text-shadow: 1px 1px 2px blue;
+	font-size:20px;  
+}
+.btn{
+	width:10%;
+	height:50px;
+	margin-top:15px; 
+	float:right;
+}
+.btn button{
+	width:190px;
+	height:35px;
+	display:block;
+	background: linear-gradient(45deg,blue,darkblue);
+	border-radius:20px;
+	border:none;
+	color:aliceblue;
+	text-decoration:none;
+	text-align:center;
+	font-size:15px;
+	font-weight: bold;
+	box-shadow: 1px 1px 3px 2px grey;
+	float:right;
+	margin-right:10%; 
+}
+.b{
+	width:100%;
+	height:35vh;
+	float:left;
+}
+.b h1{
+	text-decoration: none;
+	font-weight:10;
+	font-family: "arial";
+	font-size: 120px;
+	margin-left:28%;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.b h1 span{
+	color:rgba(51,94,226,1.00);
+	font-size:90px;
+	margin-bottom: 5%;
+	
+}
+.c{
+	width:100%;
+	float:left;
+}
+.c1{
+	width:45%;
+	height:20vh;
+	float: left;
+	margin-left:35%;
+	text-align: left;
+	margin-top:20px; 
+}
+.c1 p{
+	font-size:18px;
+	font-family: arial;
+	color:ghostwhite;
+	font-weight:bolder; 
+	
+}
+
+	
+.btn1{
+	width:20%;
+	height:50px; 
+	float: left;
+}
+
+.btn1 button{
+   width:190px;
+	height:45px;
+	display:block;
+	background: black;
+	border-radius:20px;
+	color:aliceblue;
+	text-decoration:none;
+	font-size:15px;
+	font-weight: bold;
+	float:left;
+	margin:10px 0 0 190%;
+	
+}
+.btn1 button:hover
+{
+   width:190px;
+	height:45px;
+	display:block;
+	background:white;
+	border-radius:20px;
+	color:black;
+	text-decoration:none;
+	font-size:15px;
+	font-weight: bold;
+	float:left;
+	margin:10px 0 0 190%;
+	
+}
+.btn2{
+	width:20%;
+	height:50px;
+	float: left;
+}
+.btn2 button{
+   width:190px;
+	height:45px;
+	display:block;
+	background: linear-gradient(45deg,black,blue);
+	border-radius:20px;
+	color:aliceblue;
+	text-decoration:none;
+	font-size:15px;
+	font-weight: bold;
+	float:left;
+	margin:10px 0 0 180%;
+	
+}
+.btn2 button:hover
+{
+   width:190px;
+	height:45px;
+	display:block;
+	background: linear-gradient(45deg,blue,white);
+	border-radius:20px;
+	color:black;
+	text-decoration:none;
+	font-size:15px;
+	font-weight: bold;
+	float:left;
+	margin:10px 0 0 180%;
+	
+}
+
